@@ -1,0 +1,63 @@
+.headingS{
+    font-weight: bold;
+    padding-top: 50px;
+}
+.border-inp{
+    border-width: 2px !important;
+}
+.buttonHrd{
+    width:200px;
+    height:50px;
+    border-radius: 20px;
+    border: 2px solid #FA8241;
+    color: #FA8241;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.buttonHrd:hover{
+    background-color: #FA8241;
+    color: #fff;
+
+}
+.table-container {
+    overflow-x: auto; /* Enables horizontal scrolling */
+    margin: 20px 0; /* Adds some margin around the table */
+  }
+.head-table{
+    width:100%;
+    border-collapse: collapse; /* Ensures that the table borders are collapsed into a single border */
+    font-size: large;
+    text-align: center;
+    overflow-x: auto;
+    min-width: 750px;
+}
+.head-table th{
+    background-color: #FA8241;
+    color: #fff;
+}
+.head-table tr{
+    border-bottom: 2px solid #FA8241;
+}
+.head-table td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100px;
+}
+
+.head-table button{
+    width: 60%;
+    height:35px;
+    border-radius: 10px;
+    border: 2px solid #FA8241;
+    background-color: #FA8241;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.head-table button:hover{
+    background-color: #fff;
+    color: #FA8241;
+}

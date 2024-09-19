@@ -1,0 +1,50 @@
+.displayOrderShow{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.dispTableOrderShow{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(245, 244, 244);
+    border-radius: 10px;
+}
+.dispTableOrderShow tr{
+    border-bottom: 5px solid white;
+}
+.dispTableOrderShow td{
+    padding: 10px;
+}
+.textOrderShow{
+    color: black;
+}
+.boxOrderShow{
+    border: 2px solid #303030;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+}
+.buttonConShop{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FA8241;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.buttonConShop:hover{
+    background-color: #f75803;
+}
+@media(max-width:480px){
+    .dispTableOrderShow h5{
+        font-size: smaller;
+    }
+    .dispTableOrderShow td{
+        padding: 5px;
+    }
+    .textOrderShow{
+        font-size: small;
+    }
+}

@@ -1,0 +1,14 @@
+.shaftplateOrder{
+    width: 100%;
+    height:50px;
+    background-color: #eeeeee;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.labelOrderAdmin{
+    font-weight: bold !important;
+}

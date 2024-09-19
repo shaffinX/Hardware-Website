@@ -1,0 +1,106 @@
+.CartHead{
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 100px;
+}
+.CartHeadUnderLine{
+    border: 2px solid #FA8241;
+    width: 10%;
+}
+.CTSText{
+    font-weight: 400;
+}
+.PCOButton{
+    height:50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FA8241;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+.PCOButton:hover{
+    background-color: #f75803;
+}
+@media(max-width:480px){
+    .CartHeadUnderLine{
+        border: 2px solid #FA8241;
+        width: 20%;
+    }
+}
+
+
+.table-container-Cart {
+    overflow-x: auto; /* Enables horizontal scrolling */
+    margin: 20px 0; /* Adds some margin around the table */
+  }
+.head-table-Cart{
+    width:100%;
+    border-collapse: collapse; /* Ensures that the table borders are collapsed into a single border */
+    font-size: large;
+    text-align: center;
+    overflow-x: auto;
+    min-width: 750px;
+}
+.head-table-Cart th{
+    background-color: #FA8241;
+    color: #fff;
+}
+.head-table-Cart tr{
+    border-bottom: 2px solid #FA8241;
+}
+.head-table-Cart td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100px;
+}
+
+.head-table-Cart button{
+    width: 60%;
+    height:35px;
+    border-radius: 10px;
+    border: 2px solid #FA8241;
+    background-color: #FA8241;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.head-table-Cart button:hover{
+    background-color: #fff;
+    color: #FA8241;
+}
+
+@media (max-width:480px) {
+    .CartHead{
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .table-container-Cart {
+        overflow-x: auto; /* Enables horizontal scrolling */
+        margin: 20px 0; /* Adds some margin around the table */
+        max-width: 480px;
+      }
+    .head-table-Cart{
+        border-collapse: collapse; /* Ensures that the table borders are collapsed into a single border */
+        font-size: small;
+        text-align: center;
+        min-width: 10px;
+    }
+    .head-table-Cart th{
+        background-color: #FA8241;
+        color: #fff;
+    }
+    .head-table-Cart tr{
+        border-bottom: 2px solid #FA8241;
+
+    }
+    .detailCartsss{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: 600;
+        
+    }
+    
+}

@@ -1,0 +1,85 @@
+.checkoutHeader{
+    font-weight: bolder;
+    padding-top: 50px;
+    text-align: left;
+    color: #303030;
+    padding-bottom: 20px;
+}
+.lineCheckout{
+    border: 2px solid #FA8241;
+}
+.CheckoutLeftPanel{
+    width:65%;
+}
+.CheckoutRightPanel{
+    width:35%;
+}
+.checkoutBillText{
+    font-weight: bolder;
+    color: #303030;
+}
+.checkoutLineSmal{
+    border: 1px solid #303030;
+}
+
+.labelCheckout{
+    font-weight:600;
+    color: #FA8241;
+}
+.borderInpCheckout{
+    border: 1px solid gray !important;
+}
+.boxCheckoutRight{
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 25px;
+}
+.checkoutOrderHead{
+    font-weight: bolder;
+    text-align: left;
+    color: #303030;
+}
+
+.table-container-Checkout {
+    overflow-x: auto; /* Enables horizontal scrolling */
+}
+.head-table-Checkout{
+    width:100%;
+    border-collapse: collapse; /* Ensures that the table borders are collapsed into a single border */
+    font-size: medium;
+    overflow-x: auto;
+    text-align: left;
+}
+.head-table-Checkout th{
+  
+    color: #303030;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.head-table-Checkout tr{
+    border-bottom: 1px solid gray;
+}
+.head-table-Checkout td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+.labelCheckout-2{
+    font-weight:600;
+    color: #303030;
+}
+
+.buttonCheckout{
+    border: none;
+    height: 50px;
+    width: 100%;
+    background-color: #FA8241;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+.buttonCheckout:hover{
+    background-color: #f75803;
+}

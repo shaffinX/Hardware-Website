@@ -1,0 +1,81 @@
+.adv{
+    justify-content: center;
+    display: flex;
+
+}
+.advimg{
+    width: 90%;
+    border-radius: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+
+}
+.advimg.visible {
+    width: 90%;
+    border-radius: 50px;
+    opacity: 1;
+  }
+.lineB{
+    border: 1px solid #202020;
+}
+
+.HeadHm{
+    font-weight: bolder;
+}
+
+.containCate{
+    overflow-x: auto;
+    max-width: 100%;
+    display: flex;
+}
+.cateImg{
+    width: 220px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+.cateImg:hover{
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+.CateText{
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+.catebox{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/*----------------------------Mobile------------------*/
+.advimg-m{
+    width: 90%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+
+}
+.advimg-m.visible {
+    width: 90%;
+    border-radius: 10px;
+    opacity: 1;
+  }
+
+.cateImg-m{
+    width: 150px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+.cateImg-m:hover{
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+.catebox-m{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}

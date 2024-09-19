@@ -1,0 +1,126 @@
+.panel-left{
+    width:25%;
+    background-color: #ffd5be;
+}
+.panel-left-sec{
+    max-height: 100vh;
+    overflow-y:visible;
+    overflow-x: hidden;
+}
+/* .panel-left-sec::-webkit-scrollbar {
+    display: ;
+} */
+.panel-right{
+    width:75%;
+}
+.cover{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.cover-2{
+    padding-left: 6%;
+    padding-top: 2%;
+}
+.line{
+    border:2px solid white;
+}
+.hovv{
+    display: flex;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.hovv:hover{
+    background-color: #fcc2a4;
+    border-right: 5px solid #FA8241;
+    color: #FA8241;
+}
+.hovv.active{
+    display: flex;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    cursor: pointer;
+    background-color: #fcc2a4;
+    border-right: 5px solid #FA8241;
+    color: #FA8241;
+}
+
+/*------------------------------
+*/
+
+.panel-one{
+    width:100%;
+    background-color: #ffd5be;
+}
+
+.head-M{
+    color:#202020;
+    font-weight:bold;
+    text-align:center;
+    padding-top: 10%;
+}
+
+.hovv-m{
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.hovv-m:hover{
+    background-color: #fcc2a4;
+    color: #FA8241;
+}
+.hovv-m.active{
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #fcc2a4;
+    color: #FA8241;
+}
+
+.butt-m-arr{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-size: 25px;
+    padding-bottom: 6px;
+}
+
+/*---------------------------SETTINGS--------------------------------------*/
+
+.TileRec{
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    background: linear-gradient(to right, #ff5900, #fd894b);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.TileRec:hover{
+    background: linear-gradient(to right, #f51414, #fd4b4b);
+    transform: scale(1.05);
+}
+
+.buttonLogout{
+    width: 40%;
+    height:50px;
+    border: 3px solid #FA8241;
+    background-color: #FA8241;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+.buttonLogout:hover{
+    background-color: white;
+    color: #FA8241;
+}

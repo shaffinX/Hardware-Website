@@ -1,0 +1,124 @@
+.imageContainerZoom{
+    width: 70%;
+    border: 1px solid gainsboro;
+}
+
+.imageButtonCC{
+    width:15%;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.imageButtonCC:hover{
+    border: 5px solid gainsboro;
+}
+.imageButtonCC.active{
+    width:15%;
+    border: 5px solid gainsboro;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.prodDisplayHead{
+    font-weight: bolder;
+}
+.prodQuantity{
+    width:50%;
+    border-radius: 10px;
+    background-color: #FA8241;
+    border: 2px solid #FA8241;
+    display: flex;
+    padding: 3px;
+    transition: 0.3s ease-in-out;
+}
+.prodQuantity:hover{
+    background-color: #f75803;
+    border: 2px solid #f75803;
+}
+.prodQuantity-btn{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+}
+.prodCart-btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.prodDescText{
+    text-align: justify;
+}
+.disabled-content {
+    pointer-events: none; /* Disables all pointer events */
+    opacity: 0.5; /* Makes it look disabled */
+    width:50%;
+    border-radius: 10px;
+    background-color: #FA8241;
+    border: 2px solid #FA8241;
+    display: flex;
+    padding: 3px;
+    transition: 0.3s ease-in-out;
+}
+
+@media(max-width:999px){
+    .imageButtonCC{
+        width:20%;
+        border: 2px solid gainsboro;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    .imageButtonCC:hover{
+        border: 5px solid gainsboro;
+    }
+    .imageButtonCC.active{
+        width:20%;
+        border: 5px solid gainsboro;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .prodQuantity{
+        width:80%;
+        border-radius: 10px;
+        background-color: #FA8241;
+        border: 2px solid #FA8241;
+        display: flex;
+        padding: 3px;
+        transition: 0.3s ease-in-out;
+    }
+    .prodQuantity:hover{
+        background-color: #f75803;
+        border: 2px solid #f75803;
+    }
+}
+
+
+/*-----------------------------------------*/
+.slideCategoryContainer{
+    overflow-x: auto;
+    max-width: 100%;
+    display: flex;
+    gap: 5%;
+}
+.containpicCategoryAlpha{
+    width: 25%;
+    border-bottom: 2px solid #FA8241;
+}
+
+@media(max-width:1200px){
+    .containpicCategoryAlpha{
+        width: 40%;
+
+    }
+    
+}
